@@ -1,0 +1,2 @@
+#creating a ubuntu base image
+FROM ubuntu:20.04

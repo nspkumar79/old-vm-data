@@ -1,0 +1,7 @@
+
+FROM ubuntu:20.04
+WORKDIR /app
+ADD . /app
+RUN apt update && apt install python -y
+CMD python /app/math.py
+LABEL "about"="this is label"
